@@ -1,5 +1,4 @@
-public class Paw {
-
+public class Paw{
     private int position;
 
     public Paw(int position){

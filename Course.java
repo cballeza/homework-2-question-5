@@ -1,13 +1,15 @@
-
 import java.util.ArrayList;
+import java.util.List;
 
 public class Course {
     private int code;
-    ArrayList<Book> books = new ArrayList<Book>();
+    private List<Book> books;
 
 
     public Course(int code){
         this.code = code;
+        this.books = new ArrayList<>();
     }
-
 }
+
+

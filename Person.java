@@ -6,9 +6,7 @@ public class Person {
 
     public void addWatch(Watch watch){
         watches.add(watch);
-
     }
-
     public ArrayList<Movie> getMovies(){
         return movies;
     }
@@ -22,12 +20,11 @@ public class Movie{
     public void addWatch(Watch watch){
         watches.add(watch);
     }
-
     public ArrayList<Person> getPersons(){
         return persons;
     }
-
 }
+
 public class Watch{
     private int rating;
     
